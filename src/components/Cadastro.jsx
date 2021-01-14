@@ -3,10 +3,8 @@ import InputELabel from "./InputELabel"
 const Cadastro = () => {
     return (
         <div>
-        {/* 1. Nome
-        2. Data de Nascimento
-        3. Nome do Responsável pela criança
-        4. Telefone de Contato do Responsável pela criança
+        {/* 
+        
         5. Em caso de emergência avisar: (Pais, Tios, Avós, Padrinhos) (só o check box? pode ter um checkbox outros
         6. Telefone para Emergências
         7. Possui Restrição Alimentar
@@ -20,6 +18,7 @@ const Cadastro = () => {
                 <InputELabel forName="nome" label="Insira o nome da criança/aluno" />
                 <InputELabel forName="dataDeNascimento" type="date" label="Insira a data de nascimento da criança" />
                 <InputELabel forName="responsavel" label="Insira o nome do Responsável pela criança" />
+                <InputELabel forName="telefone" label="Telefone de Contato do Responsável pela criança"/>
                 {/* <InputELabel forName="emergencia" type="select" label="Em caso de emergência avisar" /> */}
             </form>
         </div>
